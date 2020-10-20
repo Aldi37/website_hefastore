@@ -1,0 +1,244 @@
+body {
+  font-family: 'Montserrat';
+}
+
+.navbar {
+  background-color: #171717;
+}
+
+.nav-item {
+  margin-right: 20px;
+  font-weight: 200;
+}
+
+.nav-item.active a {
+  color: #F9B234 !important;
+  font-weight: 600;
+}
+
+.nav-link span {
+  color: #F9B234;
+  font-weight: 600;
+}
+
+.carousel {
+  background-color: #171717;
+  height: 450px;
+}
+
+.textcart {
+  font-size: 0.8em !important;
+}
+
+.feature h3,
+.designer h3,
+.similar-product h3,
+.menu-bayar h3,
+.mod-suc h3 {
+  color: #1b2960;
+  font-family: 'Montserrat Medium';
+  font-weight: bold;
+}
+
+.feature p,
+.designer p,
+footer p,
+.similar-product p,
+.menu-bayar p,
+.mod-suc p {
+  font-weight: 200;
+  color: #B7B7B7;
+  font-size: 20px;
+}
+
+.figure-image {
+  position: relative;
+}
+
+.figure-image a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  transition: 0.2s;
+}
+
+.figure-image a:hover {
+  opacity: 1;
+}
+
+.figure-image-design {
+  position: relative;
+}
+
+.figure-image-design a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.single_page a {
+  text-decoration: none;
+}
+
+.single_page {
+  background-color: white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 360px;
+  transform: translateY(-55px);
+  padding: 10px;
+  margin: auto;
+}
+
+.add-list {
+  margin: 55px 0;
+  border-bottom: 1px solid #b7b7b7b7;
+  padding-bottom: 30px;
+}
+
+.add-list .btn {
+  display: block;
+  margin: 8px 0;
+  width: 276px;
+  color: white;
+}
+
+.add-list .btn1 {
+  color: black;
+}
+
+.designer_by h5 {
+  font-size: 14px;
+  color: #B7B7B7;
+}
+
+.designer_by h4 {
+  color: #171717;
+  font-size: 18px;
+}
+
+.designer_by p {
+  color: black;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.designer_by p span {
+  color: #B7B7B7;
+}
+
+/* Product Deskrip */
+.pro-des {
+  height: 360px;
+  margin-bottom: 100px !important;
+}
+
+.pro-desk a {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.pro-desk a span {
+  color: #DBDBDB;
+}
+
+.pro-des .tab-content {
+  background-color: white;
+  border: 1px solid #dee2e6;
+  border-top: 0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.pro-des .tab-content p {
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 28px;
+}
+
+.pro-rev {
+  height: 300px;
+  overflow-x: hidden;
+}
+
+.pro-rev h5 {
+  font-size: 18px;
+  margin-bottom: 0;
+  margin-top: 6px;
+}
+
+.pro-rev p {
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.similar-product {
+  margin-bottom: 50px;
+}
+
+.similar-product .figure h5 {
+  font-size: 22px;
+}
+
+.similar-product .figure p {
+  font-size: 18px;
+  font-weight: 200;
+  color: #B7B7B7;
+}
+
+.men-bar h5 {
+  font-size: 18px;
+}
+
+.men-bar p {
+  font-size: 14px;
+  color: #B7B7B7;
+}
+
+.card-kanan p {
+  font-size: 14px;
+  color: #B7B7B7;
+}
+
+.card-kanan span {
+  font-size: 14px;
+  color: #1ABC9C;
+}
+
+.card-kanan .kurang {
+  font-size: 14px;
+  color: red;
+}
+
+.card-kanan .total {
+  font-size: 14px;
+  color: blue;
+}
+
+.but-kan .btn {
+  height: 45px;
+  width: 200px;
+}
+
+.but-kan .btn1 {
+  color: #ADADAD;
+}
+
+.but-kan .btn2 {
+  color: white;
+}
+
+.modal-body {
+  width: 700px;
+  height: 500px;
+  background-color: white !important;
+  margin-left: -100px;
+}
+
+.add-list a {
+  text-decoration: none;
+}
